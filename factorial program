@@ -1,0 +1,23 @@
+import.java.io.*;
+import.java.util.*;
+class UserMainCode2
+{
+     public static int nFactorial(int input1)
+     {
+          int fact=1;
+          for(int i=1;i<=input1;i++)
+          {
+                fact=fact*i;
+          }
+          return fact;
+
+     }
+     public Static void main(String args[])
+     {
+          int num,factorial;
+          Scanner sc=new Scanner(System.in);
+          System.out.println("enter the number: ");
+          num=sc.nextIn();
+          factorial=nFactorial(num);
+          System.out.println(factorial);
+}
